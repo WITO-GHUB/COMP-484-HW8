@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #1C1C1C;
+    --red: #CD5C5C;
+    --tan: #C8AD8D;
+    --grey: #8A8A8A;
+    --white: #FAF8F5;
+    --ivory: #FFFFF0;
+    --green: #556B2F;
+}
+
+/* Global styles 
+------------------------------------*/
+body {
+    font-family: 'Open Sans' Verdana, Geneva, sans-serif;
+    background-color: var(--tan);
+    line-height: 1.8;
+    margin: 0;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+/* Header & Footer 
+------------------------------------*/
+h1, h2, h3 {
+    font-family: 'Poppins', Verdana, Geneva, sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    display: inline-block;
+    background-color: var(--red);
+    padding: .2em .5em;
+    margin: 0;
+}
+
+h2 {
+    margin-top: 0;
+    font-weight: 600;
+    display: inline-block;
+    padding: .2em .5em;
+}
+
+h3 {
+    font-weight: 500;
+    display: inline-block;
+    padding: .2em .5em;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Work Experience
+------------------------------------*/
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2em 3em;
+    background-color: var(--white);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+.intro-text{
+    flex: 1;
+}
+
+.intro img {
+    flex: 1;
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Education
+------------------------------------*/
